@@ -114,8 +114,7 @@ const GetInspired: React.FC<any> = ({ locale }) => {
     [],
   );
   const user_id = process.env.NEXT_PUBLIC_INSTAGRAM_USER_ID;
-  const accessToken =
-    process.env.NEXT_PUBLIC_INSTAGRAM_TOKEN;
+  const accessToken = process.env.NEXT_PUBLIC_INSTAGRAM_TOKEN;
   const instaUrl = `https://graph.instagram.com/${user_id}/media?fields=id,media_url,permalink&access_token=${accessToken}`;
 
   useEffect(() => {
