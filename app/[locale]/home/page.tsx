@@ -56,6 +56,8 @@ const Home: React.FC<any> = ({ params: { locale } }) => {
       <Experiences locale={locale}/>
       <DetailListing data={omanLocDetail}/>
       <GetInspired locale={locale}/> 
+
+      
       {/* <OurPartner locale={locale}/> */}
 
       {/* <TextImageSplit/> */}
