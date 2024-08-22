@@ -1,0 +1,546 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* The format('truetype') in the @font-face rule specifies that the font file is a
+ TrueType font, helping the browser identify and handle the font correctly */
+
+/* @font-face {
+  font-family: "CircularStf";
+  src: url("../app/fonts/CircularStd.otf")
+    format("truetype");
+  font-weight: 900;
+} */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../app/fonts/Montserrat.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "GeLight";
+  src: url("../app/fonts/GeLight.otf") format("truetype");
+}
+@font-face {
+  font-family: "GeMedium";
+  src: url("../app/fonts/GeMedium.otf") format("truetype");
+}
+@font-face {
+  font-family: "GeBold";
+  src: url("../app/fonts/GeBold.otf") format("truetype");
+} */
+.light {
+  --primary: #39bfc0;
+  --primaryLight: #e6f6f0;
+  --secondary: #6660aa;
+  --mapBg: #6660aa;
+  --footerBg: #002a3a;
+  --navBg: #4d6a75;
+  --borderColor: #c4c4c4;
+  --heading: #333333;
+  --body-text: #666666;
+  --subheading: #000000;
+  --black: #000000;
+  --mapBgLight: #c2c0dd;
+  --white: #ffffff;
+  --homeBannerBg: #1b2734;
+  --dropDownBg: #002a3ab2;
+  --dGrey: #00000060;
+  --semiTransparentBlack: #00000099;
+}
+:root {
+  /* --font-montserrat: "CircularStf"; */
+  /* --font-montserrat: "CircularStf"; */
+  --font-montserrat: "Montserrat";
+  /* --font-ge-light: "GeLight"; */
+  /* --font-ge-medium: "GeMedium"; */
+  /* --font-ge-bold: "GeBold"; */
+
+  --font-size-vo-heading: 36px;
+  --line-height-vo-heading: 45px;
+  --font-size-vo-subheading: 24px;
+  --line-height-vo-subheading: 36px;
+  --line-height-vo-pagi-heading: 38px;
+  --font-size-vo-card-heading: 18px;
+  --line-height-vo-card-heading: 30px;
+
+  --font-size-vo-card-paragraph: 14px;
+  --line-height-vo-card-paragraph: 26px;
+  --font-size-vo-paragraph: 16px;
+  --line-height-vo-paragraph: 26px;
+  --font-size-vo-nav-link: 16px;
+  --line-height-vo-nav-link: 26px;
+  --vo-card-label: 20px;
+  --vo-card-label-line-height: 32px;
+  --vo-news-title: 32px;
+  --vo-news-title-line-height: 40px;
+  --careers-labels: 18px;
+  --careers-labels-line-height: 22px ;
+  --vo-weather-label-text: 14px;
+  --vo-weather-label-text-line-height: 18px;
+  --vo-weather-number-text: 20px;
+  --vo-weather-number-text-line-height: 25px;
+
+  --font-size-vo-button: 18px;
+  --line-height-vo-button: 18px;
+}
+.navGradient {
+  background: linear-gradient(
+    180deg,
+    #052939 0%,
+    rgba(5, 41, 57, 0.75) 15%,
+    rgba(5, 41, 57, 0.025) 100%
+  );
+}
+/* ============================================================================================================= */
+/*                                                FONT CLASSES                                                   */
+/* ============================================================================================================= */
+.vo-heading {
+  font-size: var(--font-size-vo-heading);
+  line-height: var(--line-height-vo-heading);
+  font-family: var(--font-montserrat);
+  color: var(--heading);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.vo-subHeading {
+  font-size: var(--font-size-vo-subheading);
+  line-height: var(--line-height-vo-subheading);
+  font-family: var(--font-montserrat);
+  color: var(--subheading);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.vo-paragraph {
+  font-size: var(--font-size-vo-paragraph);
+  line-height: var(--line-height-vo-paragraph);
+  font-family: var(--font-montserrat);
+  color: var(--heading);
+  font-weight: 400;
+}
+.vo-listing-heading {
+  font-size: var(--font-size-vo-subheading);
+  line-height: var(--line-height-vo-subheading);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.vo-pagination-heading {
+  font-size: var(--font-size-vo-paragraph);
+  line-height: var(--line-height-vo-paragraph);
+  font-family: var(--font-montserrat);
+  color: var(--black);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.vo-listing-paragraph {
+  font-size: var(--font-size-vo-paragraph);
+  line-height: var(--line-height-vo-paragraph);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 400;
+}
+.vo-seasoned-card-heading {
+  font-size: var(--font-size-vo-subheading);
+  line-height: var(--line-height-vo-subheading);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 700;
+}
+.vo-card-heading {
+  font-size: var(--font-size-vo-card-heading);
+  line-height: var(--line-height-vo-card-heading);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 700;
+}
+.vo-card-paragraph {
+  font-size: var(--font-size-vo-card-paragraph);
+  line-height: var(--line-height-vo-card-paragraph);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 400;
+}
+.vo-card-btn {
+  font-size: var(--font-size-vo-paragraph);
+  line-height: var(--line-height-vo-paragraph);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 400;
+}
+.vo-navbar-links {
+  font-size: var(--font-size-vo-nav-link);
+  line-height: var(--line-height-vo-nav-link);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.vo-navbar-inner-links {
+  font-size: var(--font-size-vo-nav-link);
+  line-height: var(--line-height-vo-nav-link);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 400;
+}
+.vo-drawer-content {
+  font-size: var(--font-size-vo-nav-link);
+  line-height: var(--line-height-vo-nav-link);
+  font-family: var(--font-montserrat);
+  color: var(--heading);
+  font-weight: 450;
+  text-transform: uppercase;
+}
+.vo-card-label {
+  font-size: var(--vo-card-label);
+  line-height: var(--vo-card-label-line-height);
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.vo-news-title {
+  font-family: var(--font-montserrat);
+  font-size: var(--vo-news-title);
+  font-weight: 600;
+  line-height: var(--vo-news-title-line-height);
+  color: var(--subheading);
+  text-transform: capitalize;
+}
+.vo-careers-labels {
+  font-family: var(--font-montserrat);
+  font-size: var(--careers-labels);
+  font-weight: 500;
+  line-height: var(--careers-labels-line-height);
+  color: var(--body-text);
+}
+/* ============================================================================================================= */
+/*                                                BUTTON                                                         */
+/* ============================================================================================================= */
+
+.headerSec .vo-primary-btn {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px 25px;
+}
+
+.vo-primary-btn {
+  display: block;
+  overflow: hidden;
+  font-size: var(--font-size-vo-button);
+  font-weight: 500;
+  line-height: var(--line-height-vo-button);
+  text-transform: uppercase;
+  font-family: var(--font-montserrat);
+  background-color: var(--primary);
+  padding: 18px 30px;
+  color: var(--white);
+  z-index: 1;
+  position: relative;
+  transition: background-color 300ms ease-out;
+  max-width: 200px;
+  width: 100%;
+}
+.vo-primary-btn:hover {
+  background-color: var(--white);
+}
+.vo-primary-btn span {
+  display: inline-block;
+  position: relative;
+  transition: all 300ms ease-out;
+  will-change: transform;
+}
+.vo-primary-btn:hover span {
+  transform: translate3d(-1rem, 0, 0);
+  color: #000000;
+}
+.vo-primary-btn svg {
+  position: absolute;
+  width: 1.1em;
+  right: 0px;
+  right: 0rem;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 300ms ease-out;
+  will-change: right, opacity;
+}
+.vo-primary-btn svg * {
+  stroke-width: 3;
+}
+.vo-primary-btn:hover svg {
+  opacity: 1;
+  right: -2rem;
+  filter: invert(1);
+}
+
+.gradient {
+  position: relative;
+  z-index: 1;
+}
+.gradient::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 42, 58, 0) 0%,
+    rgba(0, 42, 58, 0.6) 100%
+  );
+}
+
+@media only screen and (max-width: 1023px) {
+  :root {
+    --font-size-vo-heading: 28px;
+    --line-height-vo-heading: 40px;
+    --font-size-vo-subheading: 22px;
+    --line-height-vo-subheading: 34px;
+    --font-size-vo-paragraph: 16px;
+    --line-height-vo-paragraph: 28px;
+    --vo-news-title: 20px;
+    --vo-news-title-line-height: 24px;
+    --careers-labels: 14px;
+    --careers-labels-line-height: 20px;
+    --vo-weather-label-text: 12px;
+    --vo-weather-label-text-line-height: 15px;
+    --font-size-vo-button: 18px;
+    --line-height-vo-button: 18px;
+    --vo-weather-number-text: 13px;
+    --vo-weather-number-text-line-height: 16px;
+  }
+  .navGradient {
+    background: white;
+  }
+
+  .hideBgImg {
+    background-image: none !important;
+  }
+  .vo-news-title {
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 767px) {
+  :root {
+    --vo-news-title: 20px;
+    --vo-news-title-line-height: 30px;
+  }
+  .vo-news-title {
+    font-weight: 900;
+  }
+}
+@media only screen and (max-width: 639px) {
+  :root {
+    --font-size-vo-heading: 24px;
+    --line-height-vo-heading: 36px;
+    --font-size-vo-subheading: 17px;
+    --line-height-vo-subheading: 29px;
+    --font-size-vo-paragraph: 14px;
+    --line-height-vo-paragraph: 26px;
+    --vo-weather-label-text: 6px;
+    --vo-weather-label-text-line-height: 8px;
+    --font-size-vo-button: 18px;
+    --line-height-vo-button: 18px;
+    --vo-weather-number-text:7px;
+  --vo-weather-number-text-line-height:8px;
+  }
+}
+
+/* ============================================================================= */
+/*                                    Partner Swiper */
+/* ============================================================================= */
+
+.partner-slider .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+.partner-slider .swiper-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.partner-slider .swiper-slide {
+  flex: 0 0 auto;
+}
+/* ============================================================================= */
+/*                                    General Swiper */
+/* ============================================================================= */
+.custom-swiper .swiper-pagination {
+  position: unset !important;
+  margin-top: 50px;
+}
+.custom-swiper .swiper-pagination-bullet {
+  opacity: 1;
+  border: white solid 1px;
+  background-color: var(--mapBgLight) !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: var(--mapBg) !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+/* Experence sectio  */
+.vo-experience-cards {
+  position: relative;
+  /* width: 24%; */
+  /* height: 360px; */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.vo-experience-cards::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #29b6a380;
+  transition: 0.5s;
+  opacity: 0;
+}
+.vo-experience-cards:hover::before {
+  opacity: 1;
+  z-index: 0;
+}
+.experienceOne {
+  background: url("/assets/images/home/event-spring.png")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ============================================================================= */
+/* Events cards */
+/* ============================================================================= */
+.vo-events-cards {
+  position: relative;
+  width: 24%;
+  height: 360px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.vo-events-cards::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #29b6a380;
+  transition: 0.5s;
+  opacity: 0;
+}
+.vo-events-cards:hover::before {
+  opacity: 1;
+  z-index: 0;
+}
+.cardOne {
+  background: url("/assets/images/home/event-spring.png")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.animatedPart {
+  min-height: 130px;
+  max-height: 130px;
+  height: 100%;
+}
+.vo-events-cards .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.vo-events-cards:hover .content {
+  transform: translateY(-20px);
+}
+.vo-events-cards .content .imgBox {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.vo-events-cards .content .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vo-events-cards:hover .imgBox {
+  display: none;
+}
+.vo-events-cards .animButton {
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.vo-events-cards:hover .animButton {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.collapsible-content {
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.location-and-map-page {
+  margin-bottom: 0;
+}
+.format-link a {
+  color: #29b6a3;
+  text-decoration: underline;
+}
+/* ============================================================================= */
+/* Responsive */
+/* ============================================================================= */
+@media only screen and (max-width: 1023px) {
+  .vo-events-cards:hover::before {
+    opacity: 0;
+  }
+  .vo-events-cards:hover .content {
+    transform: none !important;
+  }
+  .custom-swiper .swiper-pagination {
+    display: none !important;
+  }
+  /* service k page mai tablet view py 2 cards show kr ne full tuo us mai pagination hogi us k leye yeh dala h */
+  .tab-pag .swiper-pagination {
+    display: block !important;
+  }
+}

@@ -1,0 +1,14 @@
+.dropdownBtn:hover .dropdownMenu {
+  display: block;
+}
+.dropdownMenu {
+  position: absolute;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+.dropdownBtn:hover .btnChevron {
+  transform: rotate(90deg);
+}
+.dropdownBtn:hover .btnChevronDown {
+  transform: rotate(180deg);
+}

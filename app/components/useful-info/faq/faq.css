@@ -1,0 +1,31 @@
+.faq-question{
+    font-weight: 500;
+    color:#000000CC;
+}
+.faq-answer p{
+    margin-top:30px;
+    font-weight: 400;
+    color:#000000CC;
+}
+.faqs-question-answer{
+   
+}
+.faq-ques-ans-wrapper{
+    padding: 30px 0;
+}
+@media screen and (max-width: 1024px) {
+    .faqs-container{
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .faq-ques-ans-wrapper{
+        padding: 25px 0;
+    } 
+    .faq-answer p{
+        margin-top: 20px;
+    }
+    .faqs-container{
+        margin-bottom: 40px;
+    }
+}

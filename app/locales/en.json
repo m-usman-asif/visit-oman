@@ -1,0 +1,336 @@
+{
+  "units": {
+    "temperature": "fahrenheit"
+  },
+  "Layout": {
+    "metaData": {
+      "title": "Visit Oman | Where to go, What to do, and Where to stay.",
+      "description": "The ultimate guide to travel and tourism in Oman. Pick the best experiences and book an adventure directly."
+    }
+  },
+  "Header": {
+    "appTitle": "Next.js Weather",
+    "navLinks": {
+      "week": "This week",
+      "about": "About",
+      "home": "Home",
+      "governance": "Governance",
+      "oia-impact": "OIA Impact",
+      "our-investments": "Our Investments",
+      "potential": "Potential",
+      "media-center": "Media Center",
+      "oman": "Oman",
+      "careers": "Careers",
+      "contact-us": "Contact Us"
+    }
+  },
+  "Home": {
+    "title": "Today's weather",
+    "userGreeting": "👋 Welcome, {name}!",
+    "sunny": "Sunny"
+  },
+  "About": {
+    "banner": {
+      "title": "About OIA",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed."
+    },
+    "boardOfMember": {
+      "title": "Board Of Member",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.",
+      "cards": {
+        "1": {
+          "name": "HE Sultan Al Habsi",
+          "role": "Minister of Finance Chairman of the Board"
+        },
+        "2": {
+          "name": "HE Abdullah Al Harthy",
+          "role": "Undersecretary of the Minister of Finance Deputy Chairman"
+        },
+        "3": {
+          "name": "HE Abdullah Al Harthy",
+          "role": "Undersecretary of the Minister of Finance Deputy Chairman"
+        },
+        "4": {
+          "name": "HE Dr. Saud Al Habsi",
+          "role": "Minister of Agriculture, Fisheries, and Water Resources"
+        }
+      }
+    },
+    "oiamanagement": {
+      "title": "OIA Management",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.",
+      "cards": {
+        "1": {
+          "name": "HE Sultan Al Habsi",
+          "role": "Minister of Finance Chairman of the Board"
+        },
+        "2": {
+          "name": "HE Abdullah Al Harthy",
+          "role": "Undersecretary of the Minister of Finance Deputy Chairman"
+        },
+        "3": {
+          "name": "HE Abdullah Al Harthy",
+          "role": "Undersecretary of the Minister of Finance Deputy Chairman"
+        },
+        "4": {
+          "name": "HE Dr. Saud Al Habsi",
+          "role": "Minister of Agriculture, Fisheries, and Water Resources"
+        }
+      }
+    },
+    "aboutWithdata": {
+      "title": "Governance and Transparency",
+      "paragraphs": [
+        {
+          "id": 1,
+          "text": "At OIA, we aim to build trust and reputation based on transparency and good governance. As such, we apply the best international practices in management to guarantee the enforcement of an effective and flexible system."
+        }
+      ]
+    },
+    "about-oia-para-img": {
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    }
+  },
+  "WeatherClimate": {
+    "select-title": "CURRENT WEATHER REPORT",
+    "weekdays": {
+      "1": {
+        "name": "Monday"
+      },
+      "2": {
+        "name": "Tuesday"
+      },
+      "3": {
+        "name": "Wednesday"
+      },
+      "4": {
+        "name": "Thursday"
+      },
+      "5": {
+        "name": "Friday"
+      },
+      "6": {
+        "name": "Saturday"
+      },
+      "7": {
+        "name": "Sunday"
+      }
+    },
+    "city": {
+      "1": {
+        "name": "Muscat"
+      },
+      "2": {
+        "name": "Musandam"
+      },
+      "3": {
+        "name": "Al Buraimi"
+      },
+      "4": {
+        "name": "A'Sharqiyah"
+      },
+      "5": {
+        "name": "Al Batinah"
+      },
+      "6": {
+        "name": "Al Dakhiliyah"
+      },
+      "7": {
+        "name": "Al Dhahirah"
+      },
+      "8": {
+        "name": "Al Wusta"
+      },
+      "9": {
+        "name": "Dhofar"
+      }
+    }
+  },
+  "In-Country": {
+    "banner": {
+      "title": "In-Country Value",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed."
+    },
+    "about": {
+      "image": {
+        "alt": "about banner"
+      },
+      "title": "In-Country Value Brief",
+      "paragraphs": {
+        "first": "The Oman Investment Authority (oia) is a member in the International Forum of Sovereign Wealth Funds (IFSWF) since April 2015.",
+        "second": "Founded in  2009, IFSWF is a voluntary group of Sovereign Wealth Funds (SWFs) which meets to exchange views on issues of common interest and to facilitate adoption by members"
+      }
+    },
+    "qimam-component": {
+      "image": {
+        "alt": "qimam banner"
+      },
+      "title": "Qimam",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and  feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.",
+      "btnTitle": "Visit Qimam"
+    },
+    "profile": {
+      "title": "ICV Mandatory",
+      "cards": {
+        "1": {
+          "name": "ICV",
+          "role": "Undersecretary of the Ministry of Finance Deputy Chairman"
+        },
+        "2": {
+          "name": "ICV",
+          "role": "Undersecretary of the Ministry of Finance Deputy Chairman"
+        },
+        "3": {
+          "name": "ICV",
+          "role": "Undersecretary of the Minister of Finance Deputy Chairman"
+        },
+        "4": {
+          "name": "ICV",
+          "role": "Minister of Agriculture, Fisheries, and Water Resources"
+        }
+      },
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed."
+    }
+  },
+  "National-Economy": {
+    "banner": {
+      "title": "National Economy",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed."
+    },
+    "stabilization": {
+      "title": "Stabilization",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    "attracting_fdi": {
+      "title": "Attracting FDI",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500"
+    },
+    "credit_rating": {
+      "title": "Credit Rating",
+      "description": "At OIA, we are committed to driving economic diversification in Oman. Through strategic investments and partnerships, we aim to create new opportunities, foster innovation, and support sustainable growth.",
+      "cards": {
+        "1": {
+          "id": 1,
+          "src": "/assets/images/national-economy/trsansforming-economy.svg",
+          "isText": false,
+          "isImage": true
+        },
+        "2": {
+          "id": 2,
+          "title": "Transforming the Economy",
+          "number": "92%",
+          "isText": true,
+          "isImage": false
+        },
+        "3": {
+          "id": 3,
+          "src": "/assets/images/national-economy/new-opportunities.svg",
+          "isText": false,
+          "isImage": true
+        },
+        "4": {
+          "id": 4,
+          "title": "Creating New Opportunities",
+          "number": "53%",
+          "isText": true,
+          "isImage": false
+        },
+        "5": {
+          "id": 5,
+          "title": "Economic Impact",
+          "number": "89%",
+          "isText": true,
+          "isImage": false
+        },
+        "6": {
+          "id": 6,
+          "src": "/assets/images/national-economy/economic-impact.svg",
+          "isText": false,
+          "isImage": true
+        },
+        "7": {
+          "id": 7,
+          "title": "Driving Innovation and Growth",
+          "number": "72%",
+          "isText": true,
+          "isImage": false
+        },
+        "8": {
+          "id": 8,
+          "src": "/assets/images/national-economy/innovation-growth.svg",
+          "isText": false,
+          "isImage": true
+        }
+      }
+    }
+  },
+  "News": {
+    "banner": {
+      "title": "News",
+      "description": "This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed."
+    },
+    "search": "Search",
+    "news": [
+      {
+        "id": "1",
+        "title": "OIA pursues its second national investment in semiconductors",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "2",
+        "title": "Oman investment authority launches future fund oman",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "3",
+        "title": "OIA launches its social investment policy and a new icv platform",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "4",
+        "title": "OIA pursues its second national investment in semiconductors",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "5",
+        "title": "OIA and iia sign an MOC to utilize innovation and research in driving",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "6",
+        "title": "OIA pursues its second national investment in semiconductors",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "7",
+        "title": "OIA launches its social investment policy and a new icv platform",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "8",
+        "title": "Oman investment authority invests in our next energy continuing",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "9",
+        "title": "OIA launches its social investment policy and a new icv platform",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "10",
+        "title": "OIA pursues its second national investment in semiconductors",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "11",
+        "title": "Oman investment authority launches future fund oman",
+        "date": "2024-07-04"
+      },
+      {
+        "id": "12",
+        "title": "OIA launches its social investment policy and a new icv platform",
+        "date": "2024-07-04"
+      }
+    ]
+  }
+}

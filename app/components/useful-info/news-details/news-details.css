@@ -1,0 +1,17 @@
+.news-details-container{
+    margin:0 0 80px 0;
+}
+.ndw-container-title{
+    max-width: 843px;
+    width: 100%;
+}
+.ndw-prev-btn, .ndw-next-btn{
+    max-width: 493px;
+    width: 100%;
+}
+@media only screen and (max-width:639px){
+    .news-details-container{
+        margin:0 0 40px 0;
+
+    }
+}

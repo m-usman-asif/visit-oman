@@ -1,0 +1,65 @@
+.visitOman.swiper_container {
+  position: relative;
+}
+.visitOman .swiper-wrapper {
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.visitOman .swiper-slide {
+  width: 25rem;
+  height: 31rem;
+  position: relative;
+}
+.visitOman .swiper-slide img {
+  width: 25rem;
+  height: 31rem;
+  object-fit: cover;
+}
+.visitOman .swiper-slide .serviceIcon {
+  max-width: 95px !important;
+  height: 95px;
+  margin: 0 auto 30px;
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.visitOman .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100% !important;
+  height: 10px !important;
+  margin-top: 50px;
+}
+
+.visitOman .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--mapBgLight);
+}
+
+.visitOman .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--mapBg);
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+  .visitOman .swiper-slide {
+    width: 19.5rem;
+    height: 24rem;
+  }
+  .visitOman .swiper-slide img {
+    width: 19.5rem;
+    height: 24rem;
+  }
+}
+
+
+
+

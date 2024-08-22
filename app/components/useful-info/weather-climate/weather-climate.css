@@ -1,0 +1,51 @@
+.wctw-select {
+  width: 100%;
+  /* max-width: 406px; */
+  padding: 0 18px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("/assets/icons/chevron-down-black.svg");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 18px);
+  background-position-y: calc(100% - 18px);
+}
+.wcts-label-text{
+  font-size: var(--vo-weather-label-text);
+  line-height: var(--vo-weather-label-text-line-height);
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  color:var(--semiTransparentBlack)
+}
+.wcts-number-text{
+  font-size: var(--vo-weather-number-text);
+  line-height: var(--vo-weather-number-text-line-height);
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  color:var(--black)
+
+}
+.wcts-select-en-bg-x{
+  background-position-x: calc(100% - 18px);
+}
+.wcts-select-ar-bg-x{
+  background-position-x: calc(100% - 96%);
+}
+.wctc-grid-col {
+  /* width:100%;
+    max-width: 180px; */
+}
+.wctc-grid-col-text {
+  
+}
+.wctc-grid-col-temp {
+  /* font-size: 20px;
+    line-height: 25px; */
+}
+
+@media only screen and (max-width: 991px) {
+  .wctw-select {
+    background-position-y: calc(100% - 3px);
+
+  }
+}
